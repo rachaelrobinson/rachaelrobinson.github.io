@@ -1,0 +1,29 @@
+/* Style sheet */
+
+#name {
+	font-size: 24pt;
+	font-family: garamond;
+	text-align: center;
+}
+body{
+	font-family: garamond;
+}
+
+.section-head {
+	font-size: 12pt;
+	font-style: bold;
+	margin-left: 25px;
+}
+
+.resume-text{
+	font-size: 12pt;
+	margin-left: 25px;
+
+}
+.experience-list {
+	list-style-type: circle;
+}
+
+.profile-picture{
+	clip-path: circle(60px at center);
+}
