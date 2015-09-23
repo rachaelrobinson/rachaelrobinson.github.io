@@ -15,12 +15,12 @@ a {
 	color: white;
 }
 
-body{
+/*body{
     background-image: linear-gradient(to bottom, #9b59b6, #9b59b6 20%, #ecf0f1 80%, #ecf0f1);
     background-size: cover;
     background-repeat: no-repeat;
 	font-family: Geneva,Tahoma,Verdana,sans-serif;
-}
+}*/
 
 .section-head {
 	font-size: 12pt;
@@ -38,10 +38,6 @@ body{
 }
 
 .profile-picture {
-	height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
 	position: center;
 	clip-path: circle(100px at center);
 }
@@ -53,6 +49,7 @@ body{
 	margin-right: 60px;
 }
 
-.top {
-
+.header {
+	background-color: #9b59b6;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
 }
