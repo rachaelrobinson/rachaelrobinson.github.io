@@ -11,7 +11,14 @@
 	text-align: center;
 	font-size: 25pt;
 }
+a {
+	color: white;
+}
+
 body{
+    background-image: linear-gradient(to bottom, #8e44ad, #8e44ad 20%, #2c3e50 80%, #2c3e50);
+    background-size: cover;
+    background-repeat: no-repeat;
 	font-family: impact;
 }
 
@@ -21,7 +28,7 @@ body{
 	margin-left: 25px;
 }
 
-.resume-text{
+.resume-text {
 	font-size: 12pt;
 	margin-left: 25px;
 
@@ -30,13 +37,17 @@ body{
 	list-style-type: circle;
 }
 
-.profile-picture{
+.profile-picture {
 	clip-path: circle(60px at center);
 }
 
-.header-button{
+.header-button {
 	font-family: impact;
 	font-size: 20pt;
 	margin-left: 60px;
 	margin-right: 60px;
+}
+
+.top {
+
 }
