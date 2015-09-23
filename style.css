@@ -2,12 +2,12 @@
 
 #name {
 	font-size: 24pt;
-	font-family: impact;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
 	text-align: center;
 }
 
 #hello-title {
-	font-family: impact;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
 	text-align: center;
 	font-size: 25pt;
 }
@@ -16,10 +16,10 @@ a {
 }
 
 body{
-    background-image: linear-gradient(to bottom, #8e44ad, #8e44ad 20%, #2c3e50 80%, #2c3e50);
+    background-image: linear-gradient(to bottom, #9b59b6, #9b59b6 20%, #ecf0f1 80%, #ecf0f1);
     background-size: cover;
     background-repeat: no-repeat;
-	font-family: impact;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
 }
 
 .section-head {
@@ -43,7 +43,7 @@ body{
 }
 
 .header-button {
-	font-family: impact;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
 	font-size: 20pt;
 	margin-left: 60px;
 	margin-right: 60px;
