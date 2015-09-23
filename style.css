@@ -2,6 +2,7 @@
 
 #name {
 	font-size: 24pt;
+
 	font-family: Geneva,Tahoma,Verdana,sans-serif;
 	text-align: center;
 }
@@ -12,34 +13,27 @@
 	font-size: 25pt;
 }
 a {
-	color: white;
+	color: #ffffff;
 }
 
-/*body{
-    background-image: linear-gradient(to bottom, #9b59b6, #9b59b6 20%, #ecf0f1 80%, #ecf0f1);
-    background-size: cover;
-    background-repeat: no-repeat;
-	font-family: Geneva,Tahoma,Verdana,sans-serif;
-}*/
-
 .section-head {
-	font-size: 12pt;
+	font-size: 1.25em;
 	font-style: bold;
 	margin-left: 25px;
+	margin-bottom: 1px;
 }
 
 .resume-text {
-	font-size: 12pt;
+	font-size: 1em;
 	margin-left: 25px;
 
 }
+
+.content-text {
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
 .experience-list {
 	list-style-type: circle;
-}
-
-.profile-picture {
-	position: center;
-	clip-path: circle(100px at center);
 }
 
 .header-button {
@@ -49,7 +43,51 @@ a {
 	margin-right: 60px;
 }
 
-.header {
+.banner {
+	margin: 0;
 	background-color: #9b59b6;
 	font-family: Geneva,Tahoma,Verdana,sans-serif;
+	color: #ffffff;
+	margin-bottom: -1px;
+	padding-top: .5em;
+}
+
+.profile-picture {
+	height: 60px;
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.image {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#image-shape {
+	max-width: 45%;
+	max-height: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.page-body{
+	background-color: #ecf0f1;
+	margin-top: -20px;
+}
+
+.footer {
+	background-color: #9b59b6;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+	color: #000000;
+	margin-bottom: -1px;
+}
+body{
+   	margin-top: 0;
+   	margin-right: 0;
+   	margin-left: 0; 
 }
