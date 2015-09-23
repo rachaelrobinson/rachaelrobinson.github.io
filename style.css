@@ -2,11 +2,17 @@
 
 #name {
 	font-size: 24pt;
-	font-family: garamond;
+	font-family: impact;
 	text-align: center;
 }
+
+#hello-title {
+	font-family: impact;
+	text-align: center;
+	font-size: 25pt;
+}
 body{
-	font-family: garamond;
+	font-family: impact;
 }
 
 .section-head {
@@ -26,4 +32,11 @@ body{
 
 .profile-picture{
 	clip-path: circle(60px at center);
+}
+
+.header-button{
+	font-family: impact;
+	font-size: 20pt;
+	margin-left: 60px;
+	margin-right: 60px;
 }
