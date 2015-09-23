@@ -38,6 +38,10 @@ body{
 }
 
 .profile-picture {
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 	position: center;
 	clip-path: circle(100px at center);
 }
