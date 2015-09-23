@@ -38,7 +38,8 @@ body{
 }
 
 .profile-picture {
-	clip-path: circle(60px at center);
+	position: center;
+	clip-path: circle(100px at center);
 }
 
 .header-button {
