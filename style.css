@@ -7,10 +7,10 @@
 	text-align: center;
 }
 
-#hello-title {
+.top-title {
 	font-family: Geneva,Tahoma,Verdana,sans-serif;
 	text-align: center;
-	font-size: 25pt;
+	font-size: 2em;
 }
 a {
 	color: #ffffff;
@@ -21,12 +21,24 @@ a {
 	font-style: bold;
 	margin-left: 25px;
 	margin-bottom: 1px;
+	padding-top: 1em;
 }
 
 .resume-text {
 	font-size: 1em;
 	margin-left: 25px;
+}
 
+#bioBody{
+	font-size: 1em;
+	text-align: center;	
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+	padding-top: 1em;
+}
+
+#bioText{
+	margin-right: 15rem;
+	margin-left: 15rem;
 }
 
 .content-text {
@@ -36,7 +48,7 @@ a {
 	list-style-type: circle;
 }
 
-.header-button {
+.footerLink {
 	font-family: Geneva,Tahoma,Verdana,sans-serif;
 	font-size: 20pt;
 	margin-left: 60px;
@@ -48,8 +60,8 @@ a {
 	background-color: #9b59b6;
 	font-family: Geneva,Tahoma,Verdana,sans-serif;
 	color: #ffffff;
-	margin-bottom: -1px;
-	padding-top: .5em;
+	margin-bottom: -3em;
+	padding-top: .1em;
 }
 
 .profile-picture {
@@ -64,6 +76,7 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	padding-bottom: 2em; 
 }
 #image-shape {
 	max-width: 45%;
@@ -84,8 +97,55 @@ a {
 	background-color: #9b59b6;
 	font-family: Geneva,Tahoma,Verdana,sans-serif;
 	color: #000000;
-	margin-bottom: -1px;
+	margin: 0;
+	padding-bottom: .5em;
+	padding-top: .5em;
 }
+.footer-text{
+	margin-left: 2em;
+}
+
+.place {
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+
+.job-pos {
+	font-style: italic;
+}
+.bio-photo {
+	max-height: 16rem;
+	max-width: auto;
+	padding: 1em;
+}
+
+.imageAndText {
+	width: 100%;
+	color: white;
+	font-size: 3em;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+
+.homePhoto{
+  background: 
+  	linear-gradient(
+      rgba(0, 0, 0, .9),
+      rgba(0, 0, 0, .9)
+    ),
+    url(./images/bi-rite.jpg);
+	max-height: 16rem;
+	max-width: auto;
+	position: relative;
+	padding: 0;
+}
+
+.imageText{
+	position: absolute;
+	top: 900px;
+	width: 100%;
+	margin-left: .2em;
+}
+
 body{
    	margin-top: 0;
    	margin-right: 0;
