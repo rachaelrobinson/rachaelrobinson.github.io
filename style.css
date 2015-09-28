@@ -1,61 +1,11 @@
 /* Style sheet */
-
-#name {
-	font-size: 24pt;
-	text-align: center;
-}
-
-#bioHead{
-	font-size: 1.5em;
+.pageText {
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
 }
 .topTitle {
 	padding-left: 3em;
 	font-size: 2em;
 }
-a {
-	color: #ffffff;
-}
-.pageText {
-	font-family: Geneva,Tahoma,Verdana,sans-serif;
-}
-.sectionHead {
-	font-size: 1.25em;
-	font-style: bold;
-	margin-left: 25px;
-	margin-bottom: 1px;
-	padding-top: 1em;
-}
-
-.resume-text {
-	font-size: 1em;
-	margin-left: 25px;
-}
-
-#bioBody{
-	font-size: 1em;
-	text-align: center;	
-	padding-top: 3em;
-}
-
-#bioText{
-	margin-right: 12rem;
-	margin-left: 12rem;
-	margin-bottom: 0;
-}
-
-#contentText {
-	padding-top: 1em;
-}
-.experience-list {
-	list-style-type: circle;
-}
-
-.footerLink {
-	font-size: 20pt;
-	margin-left: 60px;
-	margin-right: 60px;
-}
-
 .banner {
 	margin: 0;
 	background-color: #9b59b6;
@@ -65,22 +15,35 @@ a {
 	padding-bottom: 1em;
 	box-shadow: 0 0 6px .2em #000 inset;
 }
-
-.profile-picture {
-	height: 60px;
-	width: 60px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+.footer {
+	background-color: #9b59b6;
+	color: #000000;
+	margin: 0;
+	padding-bottom: .5em;
+	padding-top: .5em;
 }
 
+.footerText{
+	margin-left: 2em;
+}
+.footerLink {
+	text-decoration: none;
+	font-size: 20pt;
+	margin-left: 60px;
+	margin-right: 60px;
+	color: #ffffff;
+}
+#indexBody{
+	background-color: #ecf0f1;
+	margin-top: 3em;
+}
 .image {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	padding-bottom: 2em; 
 }
-#image-shape {
+#imageShape {
 	max-width: 45%;
 	max-height: 45%;
 	margin-left: auto;
@@ -89,59 +52,69 @@ a {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
-
-.page-body{
-	background-color: #ecf0f1;
-	margin-top: 3em;
+#bioBody{
+	font-size: 1em;
+	text-align: center;	
+	padding-top: 3em;
 }
-
-.footer {
-	background-color: #9b59b6;
-	color: #000000;
-	margin: 0;
-	padding-bottom: .5em;
-	padding-top: .5em;
+#bioText{
+	margin-right: 8rem;
+	margin-left: 8rem;
+	margin-bottom: 0;
 }
-.footer-text{
-	margin-left: 2em;
-	text-decoration: none;
-}
-
-.place {
-	font-weight: bolder;
-	font-size: 1.2em;
-}
-
-.job-pos {
-	font-style: italic;
+#bioHead{
+	font-size: 1.5em;
 }
 .bioPhotoStyle{
 	display: inline-block;
 }
 .bPhoto {
-	max-width: auto;
-	max-height: 16rem;
+	display: inline-block;
+	max-width: 16rem;
+	max-height: auto;
 	margin: 1em;
 	-moz-box-shadow:    3px 3px 5px 6px #ccc;
   	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
   	box-shadow:         3px 3px 5px 6px #ccc;
 
 }
-
+#resumeBody {
+	padding-top: 1em;
+}
+.sectionHead {
+	font-size: 1.25em;
+	font-style: bold;
+	margin-left: 25px;
+	margin-bottom: 1px;
+	padding-top: 1em;
+}
+.resumeText {
+	font-size: 1em;
+	margin-left: 25px;
+}
+.experienceList {
+	list-style-type: circle;
+}
+.place {
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+.jobPos {
+	font-style: italic;
+}
+body{
+   	margin-top: 0;
+   	margin-right: 0;
+   	margin-left: 0; 
+}
+/*
 .imageText{
 	position: absolute;
 	top: 900px;
 	width: 100%;
 	margin-left: .2em;
 }
-
-body{
-   	margin-top: 0;
-   	margin-right: 0;
-   	margin-left: 0; 
-}
-
-/*.homePhoto{
+.homePhoto{
   background: 
   	linear-gradient(
       rgba(0, 0, 0, .9),
