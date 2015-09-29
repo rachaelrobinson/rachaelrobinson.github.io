@@ -70,8 +70,8 @@
 }
 .bPhoto {
 	display: inline-block;
-	max-width: 16rem;
-	max-height: auto;
+	width: 20rem;
+	height: auto;
 	margin: 1em;
 	-moz-box-shadow:    3px 3px 5px 6px #ccc;
   	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
@@ -80,10 +80,11 @@
 }
 #resumeBody {
 	padding-top: 1em;
+	margin-right: 35em;
 }
 .sectionHead {
 	font-size: 1.25em;
-	font-style: bold;
+	font-weight: bold;
 	margin-left: 25px;
 	margin-bottom: 1px;
 	padding-top: 1em;
