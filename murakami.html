@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Murakami Final Project</title>
+	<link href="slideshow_style.css" rel="stylesheet" />
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript">
+
+		 // $("slideshowPage").parallax({imageSrc: './images/murakami_background.jpg'});
+        $(document).ready(function() {
+            $('.threePhotos').each(function(index, elem){
+            	console.log("inside each");
+                $('img', elem).wrap(function() {
+                    return '<a class="fancybox" rel="gal' + index + '" href="' + $(this).prop('src') + '" title="' + $(this).prop('title') + '">' + $(this).html() + '</a>';
+                });
+            });
+
+            $('.fancybox').not("[rel^='gal']").wrap(function() {
+                return '<a class="fancybox" href="' + $(this).prop('src') + '" title="' + $(this).prop('title') + '">' + $(this).html() + '</a>';
+            });
+            $(".fancybox").fancybox({
+                openEffect  : 'elastic',
+                closeEffect : 'elastic',
+
+                helpers : {
+                    title : {
+                        type : 'inside'
+                    }
+                }
+            });
+        });
+		var myImage = $('#photo');
+		var imageArray = [
+			"./images/murakami/final/dress2.jpg",
+			"./images/murakami/final/woodsPeace.jpg",
+			"./images/murakami/final/simple.jpg",
+			"./images/murakami/final/imperfection.jpg",
+			"./images/murakami/final/roundround2.jpg", 
+			"./images/murakami/final/rose.jpg",
+			"./images/murakami/final/woods.jpg", 
+			"./images/murakami/final/bed.jpg",
+			"./images/murakami/final/sea.jpg"];
+		var imageIndex = 0;
+		function changeImage(){
+
+			$('#photo').attr("src", imageArray[imageIndex]);
+			imageIndex++;
+			if(imageIndex >= imageArray.length){
+				imageIndex = 0;
+			}
+		}
+		var interval = setInterval(changeImage, 6000);
+
+	</script>
+</head>
+	<body class="slideshowPage">
+			<div class="headbar">
+				<h1>Hard Boiled Wonderland and the End of the World</h1>
+			</div>
+			<div id="slideshow">
+				<img id="photo" src="./images/murakami/final/dress2.jpg" alt="Murakami Photo Slideshow with Photos and Text">
+			</div>
+			<div class"allPhotos">
+				<table class="threePhotos" id="firstPhotos">
+					<tr>
+						<td>
+							<img src="./images/murakami/final/dress2.jpg" alt="Dressing" class="slideshowPhoto" title="" />
+						</td>
+						<td>
+							<img src="./images/murakami/final/woodsPeace.jpg" alt="Peace In the Woods" class="slideshowPhoto" title="" />
+						</td>
+						<td>
+							<img src="./images/murakami/final/simple.jpg" alt="Dressing" class="slideshowPhoto" title="" />
+						</td>
+					</tr>
+				</table>
+				<table class="threePhotos">
+					<tr>
+						<td>
+							<img src="./images/murakami/final/imperfection.jpg" alt="Dressing" class="slideshowPhoto" title="" />
+						</td>
+						<td>
+							<img src="./images/murakami/final/roundround2.jpg" alt="Dressing" class="slideshowPhoto" title="" />
+						</td>
+						<td>
+							<img src="./images/murakami/final/rose.jpg" alt="Dressing" class="slideshowPhoto" title="" />
+						</td>
+					</tr>
+				</table>
+				<table class="threePhotos">
+					<tr>
+						<td>
+							<img src="./images/murakami/final/woods.jpg" alt="Dressing" class="slideshowPhoto" title="" />
+						</td>
+						<td>
+							<img src="./images/murakami/final/bed.jpg" alt="Dressing" class="slideshowPhoto" title="" />
+						</td>
+						<td>
+							<img src="./images/murakami/final/sea.jpg" alt="Dressing" class="slideshowPhoto" title="" />
+						</td>
+					</tr>
+				</table>
+			</div>
+		<!-- <div class="allPhotos">
+			<div class="threePhotos">
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/dress.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/woodsPeace.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/simple.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+			</div>
+			<div class="threePhotos">
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/imperfection.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/roundround2.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/rose.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+			</div>
+			<div class-"threePhotos">
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/woods.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/bed.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+				<div class="murakamiPhotos">
+					<img src="./images/murakami/final/sea.jpg" alt="Dressing" class="slideshowPhoto">
+				</div>
+			</div>
+		</div> -->
+		<script>
+			$.backstretch("./images/murakami_background.jpg");
+		</script>
+</body>
+</html>

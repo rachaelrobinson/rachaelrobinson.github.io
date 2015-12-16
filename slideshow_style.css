@@ -1,0 +1,52 @@
+#photo{
+	width: auto;
+	width: 55em;
+	position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    padding-top: 5em;
+}
+.headbar {
+	text-align: center;
+	color: #400099;
+	font-family: "Lucida Console", Monaco, monospace;
+/*	color:#B9D5EA;
+*/}
+#slideshowContainer {
+	text-align: center;
+	position: absolute;
+	display: block;
+	top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+.allPhotos {
+	text-align: center;
+	margin-top: 50em;
+	margin-right: 3em;
+}
+.slideshowPhoto {
+	padding-top: 1em;
+	width: 28rem;
+	margin-right: -1em;
+	margin-left: -1em;
+	display: inline-block;
+}
+.murakamiPhotos {
+	padding: 1em;
+	display: inline-block;
+}
+
+#slideshow {
+	padding-top: 5em;
+	opacity: .8;
+}
+.fancybox-image{
+	width: 100%
+}
+table {
+	margin-left: 5%
+
+}
+#firstPhotos{
+	margin-top: 50em;
+}
