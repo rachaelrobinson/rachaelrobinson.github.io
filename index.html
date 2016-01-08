@@ -4,25 +4,69 @@
 <head>
 <title>Rachael</title>
 <meta charset="utf-8">
-<link href="style.css" rel="stylesheet"/>
+<link href="theStyle.css" rel="stylesheet"/>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type = "text/javascript" src="script.js"></script>
+
 </head>
 
-<body class = "pageText">
-	<div class = "banner">
-		<div class = "topTitle">
-			<h1>Hello. My name's Rachael</h1>
-		</div>
+
+<body>
+	<div class="fixed-nav-bar">
+		<ul>
+			<span id="home">Rachael Robinson</span>
+			<a class="navbar-right"> 
+				<span class="navbar-right-links" id="about">
+					<!-- value="OK" -->
+					About Me
+				</span>
+				<span class="navbar-right-links" id="github">
+					GitHub
+				</span>
+				<span class="navbar-right-links" id="resume">
+					Resume
+				</span>
+				<span class="navbar-right-links" id="photos">
+					Photography
+				</span>
+			</a>
+		</ul>
 	</div>
-	<div id = "indexBody">
+	<div class="welcome">
+		<p>Hello.</p>
 		<div class = "image">
 				<img src = "./images/rachael_skydive.jpg" alt="Rachael" id="imageShape"/>
 		</div>
+		<p><span id="name">My name is Rachael Robinson</span></p>
 	</div>
-		<div class="footer">
-		<div class="footerText">
-			<p><a class = "footerLink" href="/index.html">Home</a><a class = "footerLink" href="/bio.html">About Me</a><a class = "footerLink" href="/resume.html">Resume</a></p>
-			<!-- <p><span class="footerLink"><a href="/index.html">Home</a></span><span class="footerLink"><a href="/bio.html">About Me</a></span><span class="footerLink"><a href="/resume.html">Resume</a></span></p> -->
+	<div id="restOfPage">
+		<div id="aboutMe">
+			<p><span class="about">Originally from Seattle, WA, I now reside near Boston, MA and am majoring in Computer Science here at Tufts University.</span></p>
+				<br><br><br>
+			<p><span class="about">When I'm not coding, I enjoy taking film photos. I prefer to take photos using black and white film and appreciate the developing and printing process.</span></p>
+			<div id="arrow">
+				<img src="./images/arrow.png" alt="arrow" id="img-arrow"/>
+			</div>
 		</div>
 	</div>
+	<div id="photo-links">
+			<table class="threeLinks">
+					<tr>
+						<td class="img-crop" id="github-link">
+							<h2><span class="link-text">GitHub</span></h2>
+						</td>
+						<td class="img-crop" id="resume-link" class="darken">
+							<h2><span class="link-text">Resume</span></h2>
+						</td>
+						<td class="img-crop" id="photo-link" class="darken">
+							<h2><span class="link-text">Photography</span></h2>
+						</td>
+					</tr>
+				</table>
+	</div>
+	
 </body>
 </html>

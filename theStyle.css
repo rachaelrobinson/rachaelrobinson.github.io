@@ -1,0 +1,154 @@
+body{
+		font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  color: white;
+}
+
+.navbar-right{
+	padding-left: 50em;
+}
+
+.navbar-right-links{
+	padding-right: 2em;
+}
+.welcome{
+	margin-top: 1em;
+	font-size: 8em;
+	padding-left: .35em;
+	padding-bottom: 1em;
+}
+#name{
+	font-size: .75em;
+}
+.image {
+	text-align: right;
+	margin-top: -4.5em;
+	padding-right: 3em;
+	margin-bottom: -3em;
+	margin-left: -2em;
+}
+#imageShape {
+	max-width: 27%;
+	max-height: 27%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+#aboutMe{
+	background: rgba(0, 0, 0, 0.5);
+	padding-top: .7em; 
+	font-size: 2.5em;
+	padding-bottom: 1em;
+	padding-left: .5em;
+	padding-right: .5em;
+	text-align: center;
+	color: white;
+	margin: 0;
+
+}
+#restOfPage{
+	background: url(images/old_firehydrant.jpg);	
+	background-size: cover;
+	padding-bottom: -10em;
+	margin-right: -1em;
+	margin-left: -1em;
+}
+.about{
+
+}
+img#arrow{
+	max-height: 10px;
+	max-width: 20px;
+	margin-bottom: -2em;
+}
+#img-arrow{
+	height: 1.5em;
+}
+.img-links{
+	max-width: 30%;
+	max-height: 30%;
+}
+#github-link{
+	background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.3), 
+	      rgba(0, 0, 0, 0.3)
+	    ),
+	    url(images/rocks.jpg);
+	/*TODO: FIGURE OUT PHOTO POSITION/SIZING*/
+	background-size: cover;  
+/*	background-size: contain;
+	background-repeat: no-repeat;*/
+	/*left: 100%;*/
+	overflow: hidden;
+}
+#resume-link{
+	background: 
+		linear-gradient(
+      		rgba(0, 0, 0, 0.3), 
+      		rgba(0, 0, 0, 0.3)
+    	),
+		url(images/window.jpg);
+	background-size: cover;
+}
+#photo-link{
+	background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.3), 
+	      rgba(0, 0, 0, 0.3)
+    	),
+		url(images/trees.jpg);
+	background-size: cover;
+}
+#photo-link:hover{
+	opacity: 0.8;
+}
+.img-crop{
+	background: rgba(0, 0, 0, 0.3);
+	border-color: gray;
+	border-width: .2em;
+	text-align: center;
+	color: gray;
+	width: 30em;
+	height: 20em;
+
+}
+.link-text{
+	text-align: center;
+	color: #c5c5c5;
+}
+#photo-links{
+	margin-top: 3em;
+}
+.resume{
+	background-color: gray;
+	padding-top: 5em;
+	text-align: center;
+	padding-bottom: 2em;
+	margin: 0;
+	margin-left: -1em;
+	margin-right: -1em;
+}
+#resume_png{
+	background-color: white;
+	text-align: center;
+	width: 50em;
+	padding: 1em;
+}
+#resume_body{
+	background-color: gray;
+}
+.link-text{
+	padding: .5em;
+	border-style: solid;
+}
