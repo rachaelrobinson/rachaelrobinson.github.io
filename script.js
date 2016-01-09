@@ -14,12 +14,22 @@ $(document).ready(function(){
 	$("#resume").click(function(){
 		window.location.href='./resume.html';
 	});
-	$("#photography").click(function(){
-		window.location.href='';
+	$("#photos").click(function(){
+		window.location.href='./photography.html';
 	});
 	$("#img-arrow").click(function(){
 		autoScrollTo("github-link");
-	})
+	});
+	$("#github-link").click(function(){
+		window.location.href='https://github.com/rachaelrobinson';
+	});
+	$("#resume-link").click(function(){
+		window.location.href='./resume.html';
+	});
+	$("#photography-link").click(function(){
+		window.location.href='./photography.html';
+	});
+
 
 });
 	window.onload = function() {
