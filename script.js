@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$("#about").click(function(){
 		console.log("clicked");
 		$('html,body').animate({
-        	scrollTop: $("#restOfPage").offset().top},
+        	scrollTop: $("#restOfPage").offset().top - 60},
         	'slow');
 	});
 	// $("#github").click(function(){
