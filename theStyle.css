@@ -4,6 +4,8 @@ body{
 li {
 	display: inline-block;
 	list-style:none;
+		cursor: pointer;
+
 }
 a {
 	text-decoration: none;
@@ -97,6 +99,7 @@ img#arrow{
 }
 #img-arrow{
 	height: 1.5em;
+	cursor: pointer;
 }
 .img-links{
 	max-width: 30%;
@@ -115,6 +118,8 @@ img#arrow{
 	background-repeat: no-repeat;*/
 	/*left: 100%;*/
 	overflow: hidden;
+	/*cursor: pointer;*/
+
 }
 #github-link:hover{
 	opacity: 0.8;
@@ -155,6 +160,7 @@ img#arrow{
 
 }
 .link-text{
+	cursor: pointer;
 	text-align: center;
 	color: #c5c5c5;
 }
@@ -178,6 +184,9 @@ img#arrow{
 	text-align: center;
 	width: 50em;
 	padding: 1em;
+	-moz-box-shadow:    3px 3px 5px 6px #3c3c3c;
+  	-webkit-box-shadow: 3px 3px 5px 6px #3c3c3c;
+  	box-shadow:         3px 3px 5px 6px #3c3c3c;
 }
 #resume_body{
 	background-color: gray;
