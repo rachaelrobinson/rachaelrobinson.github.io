@@ -3,6 +3,21 @@ body{
 }
 li {
 	display: inline-block;
+	list-style:none;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:visited { 
+	text-decoration: none; color:white; 
+}
+.toggle-nav {
+    display:none;
+}
+.menu a:hover{
+    text-decoration:none;
+    color:#649fd4;
 }
 .fixed-navbar {
   position: fixed;
@@ -13,19 +28,23 @@ li {
   height: 50px;
   background-color: #000000;
   color: white;
+  text-decoration: none;
 }
-
+.right{
+	float: right;
+}
 .navbar-right{
 	position: relative;
 	float: right;
 }
 
 .navbar-right-links{
+	display: inline-block;
 	padding-right: 2em;
 }
 .welcome{
 	margin-top: 1em;
-	font-size: 8em;
+	font-size: 8rem;
 	padding-left: .35em;
 	padding-bottom: 1em;
 }
@@ -35,9 +54,10 @@ li {
 .image {
 	text-align: right;
 	margin-top: -4.5em;
-	padding-right: 3em;
-	margin-bottom: -3em;
+	/*padding-right: 3em;*/
+	margin-bottom: -2em;
 	margin-left: -2em;
+	float: right;
 }
 #imageShape {
 	max-width: 27%;
@@ -188,4 +208,73 @@ img#arrow{
 }
 #photo{
 	padding-top: 3em;
+}
+
+@media (max-width: 603px) {
+  /*li {
+    display: block;
+  }*/
+  .menu ul.active {
+	display:none;
+  }
+
+  .menu ul {
+	width:100%;
+	position:absolute;
+	top:120%;
+	left:0px;
+	padding:10px 18px;
+	box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+	border-radius:3px;
+	background:#303030;
+   }
+       .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+ 
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+ 
+    .menu a {
+        display:block;
+    }
+ 
+    .toggle-nav {
+        padding:20px;
+        float:left;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#000000;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#aea9a9;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover{
+        text-decoration:none;
+        color:#649fd4;
+    }
+    .navbar-right-links{
+    	padding-right: 0em;
+    }
+    .right{
+    	float: left;
+    }
+    .fixed-navbar {
+    	height: 70px;
+    }
 }

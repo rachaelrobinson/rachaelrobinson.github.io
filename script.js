@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	$('.toggle-nav').click(function(e) {
+        $(this).toggleClass('active');
+        $('.menu ul').toggleClass('active');
+ 
+        e.preventDefault();
+    });
 	$("#home").click(function(){
 		console.log("HELLO");
 		window.location.href='./index.html';
@@ -9,15 +15,15 @@ $(document).ready(function(){
         	scrollTop: $("#restOfPage").offset().top},
         	'slow');
 	});
-	$("#github").click(function(){
-		window.location.href='https://github.com/rachaelrobinson';
-	});
-	$("#resume").click(function(){
-		window.location.href='./resume.html';
-	});
-	$("#photos").click(function(){
-		window.location.href='./photography.html';
-	});
+	// $("#github").click(function(){
+	// 	window.location.href='https://github.com/rachaelrobinson';
+	// });
+	// $("#resume").click(function(){
+	// 	window.location.href='./resume.html';
+	// });
+	// $("#photos").click(function(){
+	// 	window.location.href='./photography.html';
+	// });
 	$("#img-arrow").click(function(){
 		$('html,body').animate({
         	scrollTop: $("#github-link").offset().top},

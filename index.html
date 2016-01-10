@@ -15,25 +15,33 @@
 
 
 <body>
+	<nav class="menu">
+	<!-- responsive navbar taken from here: http://inspirationalpixels.com/tutorials/creating-a-responsive-menu-with-html-css-jquery -->
 	<div class="fixed-navbar" class="navbar-toggle collapsed">
-		<ul>
-			<span id="home">Rachael Robinson</span>
-			<a class="navbar-right"> 
+		<ul class="active">
+			<li id="home">
+				<a href="#">Rachael Robinson</a>
+			</li>
+			<span class="right">
+			<!-- <span class="navbar-right"> -->
 				<li class="navbar-right-links" id="about">
-					About Me
+					<a>About Me</a>
 				</li>
 				<li class="navbar-right-links" id="github">
-					GitHub
+					<a href="https://github.com/rachaelrobinson">GitHub</a>
 				</li>
 				<li class="navbar-right-links" id="resume">
-					Resume
+					<a href="./resume.html">Resume</a>
 				</li>
 				<li class="navbar-right-links" id="photos">
-					Photography
+					<a href="./photography.html">Photography</a>
 				</li>
-			</a>
+			</span>
+			<!-- </span> -->
 		</ul>
+		<a class="toggle-nav" href="#">&#9776;</a>
 	</div>
+</nav>
 	<div class="welcome">
 		<p>Hello.</p>
 		<div class = "image">

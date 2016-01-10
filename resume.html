@@ -11,25 +11,33 @@
 </head>
 
 <body id="resume_body">
-	<div class="fixed-nav-bar">
-		<ul>
-			<span id="home">Rachael Robinson</span>
-			<a class="navbar-right"> 
-				<span class="navbar-right-links" id="about" value="OK">
-					About Me
-				</span>
-				<span class="navbar-right-links" id="github">
-					GitHub
-				</span>
-				<span class="navbar-right-links" id="resume">
-					Resume
-				</span>
-				<span class="navbar-right-links" id="photos">
-					Photography
-				</span>
-			</a>
+	<nav class="menu">
+	<!-- responsive navbar taken from here: http://inspirationalpixels.com/tutorials/creating-a-responsive-menu-with-html-css-jquery -->
+	<div class="fixed-navbar" class="navbar-toggle collapsed">
+		<ul class="active">
+			<li id="home">
+				<a href="#">Rachael Robinson</a>
+			</li>
+			<span class="right">
+			<!-- <span class="navbar-right"> -->
+				<li class="navbar-right-links" id="about">
+					<a>About Me</a>
+				</li>
+				<li class="navbar-right-links" id="github">
+					<a href="https://github.com/rachaelrobinson">GitHub</a>
+				</li>
+				<li class="navbar-right-links" id="resume">
+					<a href="./resume.html">Resume</a>
+				</li>
+				<li class="navbar-right-links" id="photos">
+					<a href="./photography.html">Photography</a>
+				</li>
+			</span>
+			<!-- </span> -->
 		</ul>
+		<a class="toggle-nav" href="#">&#9776;</a>
 	</div>
+</nav>
 	<div class="resume">
 		<img src="./images/ResumeOct2015.png" alt="resume" id="resume_png"/> 
 	</div>
