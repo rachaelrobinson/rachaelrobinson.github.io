@@ -1,3 +1,14 @@
+
+// window.onload = function() {
+// 	setTimeout (function () {
+// 		scrollTo(0,0);
+// 	}, 100); //100ms for example
+// }
+var jump = function(){
+	('html,body').animate({
+        	scrollTop: $("#restOfPage").offset().top - 60},
+        	'slow');
+}
 $(document).ready(function(){
 	$('.toggle-nav').click(function(e) {
         $(this).toggleClass('active');
@@ -6,14 +17,20 @@ $(document).ready(function(){
         e.preventDefault();
     });
 	$("#home").click(function(){
-		console.log("HELLO");
+		// console.log("HELLO");
 		window.location.href='./index.html';
 	});
 	$("#about").click(function(){
-		console.log("clicked");
+		// console.log("clicked");
 		$('html,body').animate({
         	scrollTop: $("#restOfPage").offset().top - 60},
         	'slow');
+	});
+	$("#photography-img-arrow").click(function(){
+		// console.log("clicked");
+		$('html,body').animate({
+        	scrollTop: $("#interested").offset().top},
+        	600);
 	});
 	// $("#github").click(function(){
 	// 	window.location.href='https://github.com/rachaelrobinson';
@@ -39,7 +56,23 @@ $(document).ready(function(){
 	$("#photography-link").click(function(){
 		window.location.href='./photography.html';
 	});
+	
+	$("#about_other").click(function(){
+		window.location.href= "./index.html";
 
+	});
+	$("#redirect_img_arrow").click(function(){
+		window.location.href= "https://www.flickr.com/photos/rrobinson95/";
+
+	});
+
+
+		// window.location.href= "./index.html#restOfPage";
+		// $(window).load(function(){
+		// 	$('html,body').animate({scrollTop: $("#restOfPage").offset().top - 60},'slow');
+		// });
+		
+		
 
 });
 
@@ -61,11 +94,6 @@ $(document).ready(function(){
 // 	var speed = 4;
 
 
-// window.onload = function() {
-// 	setTimeout (function () {
-// 		scrollTo(0,0);
-// 	}, 100); //100ms for example
-// }
 // 	function autoScrollTo(el) {
 // 		console.log(el);
 // 		var currentY = window.pageYOffset;
@@ -104,3 +132,20 @@ $(document).ready(function(){
 // 	}
 
 // // });
+// $(function(){
+	// 	$("#about_other").on('click', function(e){
+	// 		e.preventDefault;
+	// 		// $('html, body').animate({
+ //   //                      scrollTop: $($(this).attr('href')).offset().top + 'px'
+ //   //                  }, 1000, 'swing');
+	// 		$('html,body').animate({
+	//         	scrollTop: $($("#restOfPage").attr(href="./index.html")).offset().top - 60},
+	//         	'slow');
+	// 	});
+	// 	if (window.location.hash) {
+	//                     // smooth scroll to the anchor id
+	//                     $('html,body').animate({
+	//         	scrollTop: $("#restOfPage").offset().top - 60},
+	//         	'slow');
+	//     }
+	// });
