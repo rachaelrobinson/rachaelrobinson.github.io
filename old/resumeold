@@ -1,0 +1,117 @@
+<div class="resume-body">
+		<div class="">
+			<h1 id="resumeName">RACHAEL ROBINSON</h1>
+			<p><span id="mailto">Rachael.Robinson@tufts.edu</span>          <span id="github_ref">https://github.com/rachaelrobinson</span></p>
+		</div>
+		<div class="section">
+			<div class = "sectionHead">
+				<h2>Education</h2>
+			</div>
+			<div class = "resumeText">
+				<p>Tufts Universty, Medford, MA</p>
+				<p>Bachelor of Science in Computer Science, Expected May 2017</p>
+				<p>GPA 3.68, Dean's List</p>
+			</div>
+			<div class="line">
+				<!-- line -->
+			</div>
+		</div>
+		<div class="section">
+			<div class = "sectionHead">
+				<h2>Relevant Coursework </h2>
+			</div>
+			<div class = "resumeText">
+				<p>Introduction to Machine Learning, Computation Theory, Wearables, Web Programming, Algorithms, Machine Structure and Assembly Language Programming, Discrete Mathematics, Data Structures, Introduction to Computer Science</p>
+			</div>
+		</div>
+		<div class="section">
+			<div class = "sectionHead">
+				<h2>Projects</h2>
+			</div>
+			<div class = "resumeText">
+				<p>StreetSpot</p>
+				<ul class="experienceList">
+					<li>A web-based application to help college students find off-campus housing and review landlords (currently working on)</li>
+				</ul>
+				<p>Image Compressor and Decompressor</p>
+				<ul class="experienceList">
+					<li>Implemented a ppm image compress and decompress algorithm in C</li>
+				</ul>
+			</div>
+		</div>
+		<div class="section">
+			<div class = "sectionHead">
+				<h2> Skills </h2>
+			</div>
+			<div class = "resumeText">
+				<p>Programming Languages: C, C++, JavaScript, Ruby, HTML, CSS, Command Line programming, SQL</p>
+				<p>Frameworks: Rails</p>
+				<p>Software: Adobe Photoshop, Adobe InDesign, Adobe Captivate, Git</p>
+			</div>
+		</div>
+		<div class="section">
+			<div class = "sectionHead">
+				<h2>Experience</h2>
+			</div>
+			<div class = "resumeText">
+				<p><span class = "place">Tufts Computer Science Department</span>, Tufts University, Medford, MA</p>
+				<p><span class = "jobPos">Teaching Assistant</span>, January 2016 - Present</p>
+				<ul class = "experienceList">
+					<li>Facilitate further understanding of upper level material</li>
+					<li>Encourage good design of projects and professional coding habits</li>
+				</ul>
+				<p><span class = "place"> Computer Science Faculty Research Project</span>, Tufts University</p>
+				<p><span class = "jobPos">Principal Investigator</span>, June 2015 - January 2016</p>
+				<ul class = "experienceList">
+					<li>Coordinated and facilitate all study activities including facilitating play tests</li>
+				</ul>
+				<p><span class = "jobPos">Software Engineer</span>, September 2014 - January 2016</p>
+				<ul class = "experienceList">
+					<li>Designed algorithms to model animal life in game</li>
+					<li>Implemented features for a Rails and Backbone video game</li>
+				</ul>
+				<p><span class = "place">Healthworks</span>, Boston, MA</p>
+				<p><span class = "jobPos">Front Desk Staff</span>, May - August 2015</p>
+				<ul class = "experienceList">
+					<li>Provided high-level of customer service within fast-paced work environment</li>
+				</ul>
+				<p><span class = "place">Institute of Translational Health Sciences University of Washington</span>, Seattle, WA</p>
+				<p><span class = "jobPos">Video Intern</span>, June - August 2014</p>
+				<ul class = "experienceList">
+					<li>Created short tutorial videos using Adobe Captivate</li>
+					<li>Collaborated with developers to communicate application features to a non-technical audience</li>
+				</ul>
+				<p><span class = "place">University of Washington Oceanography</span>, Seattle, WA</p>
+				<p><span class = "jobPos">Research Intern</span>, May - June 2013</p>
+				<ul class = "experienceList">
+					<li>Computed statistics for ocean current activity</li>
+					<li>Produced visualizations of ocean current statistics using MATLAB</li>
+				</ul>
+			</div>
+		</div>
+		<div class = "sectionHead">
+			<h2>Leadership</h2>
+		</div>
+		<div class = "resumeText">
+			<p><span class = "place">TEDx Tufts, Tufts University</span></p>
+			<p><span class = "jobPos">Web Lead</span>, September 2015 - Present</p>
+			<p><span class = "jobPos">Web/Design Team Member</span>, February - September 2015</p>
+			<ul class = "experienceList">
+				<li>Manage and update website content</li>
+				<li>Plan event collaborating with six other specialized teams and speakers</li>
+			</ul>
+			<p><span class = "place">Leonard Carmichael Society</span>, Tufts University</p>
+			<p><span class = "jobPos">Community Service Volunteer</span>, September 2013 - May 2014</p>
+			<ul class = "experienceList">
+				<li>Met weekly with a 5-year-old child with special needs at Tufts Educational Daycare Center</li>
+				<li>Mentored and encouraged interpersonal skills with 5-year-old child</li>
+			</ul>
+		</div>
+		<div class = "sectionHead">
+			<h2>Interests</h2>
+		</div>
+		<div class = "resumeText">
+			<p>Digital and film photography, snowboarding, biking, personal fitness, travel </p>
+		</div>
+	</div>
+</div>

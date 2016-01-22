@@ -32,6 +32,12 @@ $(document).ready(function(){
         	scrollTop: $("#interested").offset().top},
         	600);
 	});
+	$("#mailto").click(function(){
+		window.location.href = "mailto:rachael.robinson@tufts.edu";
+    });
+    $("#contact_mail").click(function(){
+ 		window.location.href = "mailto:rachael.robinson@tufts.edu";
+    });
 	// $("#github").click(function(){
 	// 	window.location.href='https://github.com/rachaelrobinson';
 	// });
@@ -43,13 +49,18 @@ $(document).ready(function(){
 	// });
 	$("#img-arrow").click(function(){
 		$('html,body').animate({
-        	scrollTop: $("#github-link").offset().top},
+			scrollTop: $(".threeLinks").offset().top - 450},
         	'slow');
+        	// scrollTop: $("#github-link").offset().top - 200},
+        	// 'slow');
 		// autoScrollTo("github-link");
 	});
 	$("#github-link").click(function(){
 		window.location.href='https://github.com/rachaelrobinson';
 	});
+	$("#githubref").click(function(){
+		window.location.href='https://github.com/rachaelrobinson';
+	})
 	$("#resume-link").click(function(){
 		window.location.href='./resume.html';
 	});

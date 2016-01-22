@@ -1,10 +1,14 @@
+/*@import url('http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Lato');*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
 body{
-		font-family: Geneva,Tahoma,Verdana,sans-serif;
+		/*font-family: Geneva,Tahoma,Verdana,sans-serif;*/
+		font-family: 'Lato', sans-serif;
 }
 li {
 	display: inline-block;
 	list-style:none;
-		cursor: pointer;
+	cursor: pointer;
+	font-weight: bold;
 
 }
 a {
@@ -75,9 +79,9 @@ a:visited {
 	margin-bottom: 2em;
 }
 #aboutMe{
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 	padding-top: .7em;
-	font-size: 250% ;
+	font-size: 150% ;
 /*	font-size: 2.5em;
 */	padding-bottom: 1em;
 	padding-left: .5em;
@@ -86,6 +90,12 @@ a:visited {
 	color: white;
 	margin: 0;
 
+}
+.about{
+	padding-top: 7em;
+	padding-bottom: 7em;
+	padding-right: 25%;
+	padding-left: 25%;
 }
 #restOfPage{
 	background: url(images/old_firehydrant.jpg);	
@@ -179,7 +189,7 @@ img#arrow{
 	margin-top: 3em;
 }
 .resume{
-	background-color: gray;
+	background-color: #4d4d4d;
 	padding-top: 5em;
 	text-align: center;
 	padding-bottom: 2em;
@@ -197,7 +207,7 @@ img#arrow{
   	box-shadow:         3px 3px 5px 6px #3c3c3c;
 }
 #resume_body{
-	background-color: gray;
+	background-color: #4d4d4d;
 }
 .link-text{
 	padding: .5em;
@@ -349,6 +359,70 @@ img#redirect_arrow{
     	height: 70px;
     }
 }
+#mailto{
+	/*background-color: orange;*/
+	padding-left: 2em;
+	margin-top: 7em;
+	margin-left: 11em;
+	position: absolute;
+	width: 10em;
+	height: 1em;
+	cursor: pointer;
+	/*opacity: .4;*/
+}
+#contact_mail{
+	cursor: pointer;
+}
+.contact{
+	margin-top: 5em;
+	text-align: center;
+}
+#githubref{
+	/*background-color: green;*/
+	padding-left: 2em;
+	margin-top: 7em;
+	position: absolute;
+	margin-left: 23em;
+	width: 13em;
+	height: 1em;
+	cursor: pointer;
+	/*opacity: .4;*/
+}
+/*.resume-body{
+	background-color: white;
+	text-align: left;
+	font-size: .8em;
+	margin-top: 5em;
+	padding-left: 9em;
+	padding-right: 9em;
+	padding-top: 3em;
+	margin-left: 18em;
+	margin-right: 18em;
+	padding-bottom: 2em;
+}
+#resumeName{
+	font-size: 2.5em;
+	color:#649fd4;
+}
+.resumeText{
+	display: inline-block;
+	background-color: orange;
+}
+.sectionHead {
+	font-weight: bold;
+	display: inline-block;
+	background-color: blue;
+}
+.experienceList {
+	list-style-type: circle;
+}
+.place {
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+.jobPos {
+	font-style: italic;
+}*/
 @media (max-width: 445px){
 	.image{
 		margin-top: -3em;
