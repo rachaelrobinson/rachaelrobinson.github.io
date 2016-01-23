@@ -374,11 +374,10 @@ img#redirect_arrow{
 }
 #mailto{
 	/*background-color: orange;*/
-	padding-left: 2em;
-	margin-top: 7em;
-	margin-left: 11em;
+	top: 12.5em;
+	left: 11.2em;
 	position: absolute;
-	width: 10em;
+	width: 11.5em;
 	height: 1em;
 	cursor: pointer;
 	/*opacity: .4;*/
@@ -406,10 +405,10 @@ img#redirect_arrow{
 #githubref{
 	/*background-color: green;*/
 	padding-left: 2em;
-	margin-top: 7em;
+	top: 12.5em;
 	position: absolute;
-	margin-left: 23em;
-	width: 13em;
+	left: 22.8em;
+	width: 12.4em;
 	height: 1em;
 	cursor: pointer;
 	/*opacity: .4;*/
