@@ -49,10 +49,12 @@ a:visited {
 	padding-right: 2em;
 }
 .welcome{
+	height: 8em;
 	margin-top: 1em;
 	font-size: 600%;
 	padding-left: .35em;
 	padding-bottom: 1em;
+	display: inline-block;
 }
 
 #name{
@@ -61,13 +63,35 @@ a:visited {
 #hello{
 	font-size: 1em;
 }
+.helloWelcome{
+	color: white;
+	text-align: center;
+	height: 50em;
+	/*margin-top: 5em;*/
+	background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.5), 
+	      rgba(0, 0, 0, 0.5)
+	    ),
+	    url(images/fire.jpg);
+	background-size: cover;
+	padding-bottom: -10em;
+	margin-right: -1em;
+	margin-left: -1em;
+}
+#frontWelcome{
+	display: none;
+	padding-top: 7em;
+	font-size: 3em;
+}
 .image {
 	text-align: right;
-	margin-top: -4.5em;
+	margin-top: -4em;
 	/*padding-right: 3em;*/
 	margin-bottom: -2em;
 	margin-left: -2em;
 	float: right;
+	display: inline-block;
 }
 #imageShape {
 	max-width: 27%;
@@ -412,6 +436,15 @@ img#redirect_arrow{
 	height: 1em;
 	cursor: pointer;
 	/*opacity: .4;*/
+}
+#github-light{
+	height: 1.3em;
+}
+#github-light:hover{
+	
+}
+#navImg{
+	height: 1.5em;
 }
 /*.resume-body{
 	background-color: white;

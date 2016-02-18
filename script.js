@@ -4,12 +4,31 @@
 // 		scrollTo(0,0);
 // 	}, 100); //100ms for example
 // }
+function hover(element) {
+    element.setAttribute('src', './images/GitHub-Mark-Light-120px-plus_blue.png');
+}
+function unhover(element) {
+    element.setAttribute('src', './images/GitHub-Mark-Light-120px-plus.png');
+}
+function Linkhover(element) {
+    element.setAttribute('src', './images/linked_blue.png');
+}
+function Linkunhover(element) {
+    element.setAttribute('src', './images/linked.png');
+}
+function Camerahover(element) {
+    element.setAttribute('src', './images/camera_blue.png');
+}
+function Cameraunhover(element) {
+    element.setAttribute('src', './images/camera_white.png');
+}
 var jump = function(){
 	('html,body').animate({
         	scrollTop: $("#restOfPage").offset().top - 60},
         	'slow');
 }
 $(document).ready(function(){
+	$("#frontWelcome").fadeIn(2000);
 	$('.toggle-nav').click(function(e) {
         $(this).toggleClass('active');
         $('.menu ul').toggleClass('active');
@@ -17,11 +36,9 @@ $(document).ready(function(){
         e.preventDefault();
     });
 	$("#home").click(function(){
-		// console.log("HELLO");
 		window.location.href='./index.html';
 	});
 	$("#about").click(function(){
-		// console.log("clicked");
 		$('html,body').animate({
         	scrollTop: $("#restOfPage").offset().top - 60},
         	'slow');
