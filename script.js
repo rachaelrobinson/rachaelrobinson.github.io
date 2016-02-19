@@ -46,7 +46,7 @@ $(document).ready(function(){
 	$("#photography-img-arrow").click(function(){
 		// console.log("clicked");
 		$('html,body').animate({
-        	scrollTop: $("#interested").offset().top},
+        	scrollTop: $("#photoInterest").offset().top},
         	600);
 	});
 	$("#mailto").click(function(){
@@ -89,7 +89,7 @@ $(document).ready(function(){
 		window.location.href= "./index.html";
 
 	});
-	$("#redirect_img_arrow").click(function(){
+	$("#flickrLogo").click(function(){
 		window.location.href= "https://www.flickr.com/photos/rrobinson95/";
 
 	});

@@ -19,7 +19,7 @@
 				"./images/slideshow/candles.jpg",
 				"./images/slideshow/chairs.jpg",
 				"./images/slideshow/fire_hydrant.jpg", 
-				"./images/slideshow/claw.jpg",
+				// "./images/slideshow/claw.jpg",
 				"./images/slideshow/theater.jpg", 
 				"./images/slideshow/chairs_ocean.jpg",
 				"./images/slideshow/pike-place.jpg",
@@ -27,16 +27,32 @@
 				"./images/slideshow/white_house.jpg",
 				"./images/slideshow/sf_building.jpg",];
 			var imageIndex = 0;
-			function changeImage(){
-
-				$('#photo').attr("src", imageArray[imageIndex]);
-				imageIndex++;
-				if(imageIndex >= imageArray.length){
-					imageIndex = 0;
+			function changeImage(direction){				
+				if(direction == 1){
+					if(imageIndex >= imageArray.length){
+						imageIndex = 0;
+					} else {
+						imageIndex++;
+					}
 				}
+				if(direction == 0){
+					if(imageIndex == 0){
+						imageIndex = imageArray.length - 1;
+					} else {
+						imageIndex--;
+					}
+				}
+				$('#photo').attr("src", imageArray[imageIndex]);
 			}
-			var interval = setInterval(changeImage, 6000);
-
+			// var interval = setInterval(changeImage(1), 600);
+			$(document).ready(function(){
+				$('#back_img_arrow').click(function(){
+					changeImage(0);
+				});
+				$('#forward_img_arrow').click(function(){
+					changeImage(1);
+				});
+			});
 	</script>
 </head>
 
@@ -50,9 +66,9 @@
 			</li>
 			<span class="right">
 			<!-- <span class="navbar-right"> -->
-				<li class="navbar-right-links" id="about">
+				<!-- <li class="navbar-right-links" id="about">
 					<a>About Me</a>
-				</li>
+				</li> -->
 				<li class="navbar-right-links" id="resume">
 					<a href="./resume.html">Resume</a>
 				</li>
@@ -74,16 +90,26 @@
 	<div class="photography">
 		<div id="slideshow">
 			<img id="photo" src="./images/slideshow/beach.jpg" alt="Photography Slideshow">
-
+			<img id="back_img_arrow" src="./images/arrow.png" alt="Previous Image">
+			<img id="forward_img_arrow" src="./images/arrow.png" alt="Next Image">
 		</div>
+		<!-- <div id="nav_arrows"> -->
+			<!-- <div id="back_arrow"> -->
+				<!-- <img src="./images/arrow.png" alt="Previous Image" id="back_img_arrow"> -->
+			<!-- </div> -->
+			<!-- <div id="forward_arrow"> -->
+				<!-- <img src="./images/arrow.png" alt="Next Image" id="forward_img_arrow"> -->
+			<!-- </div> -->
+		<!-- </div> -->
 		<div id="photo-arrow">
 				<img src="./images/arrow.png" alt="arrow" id="photography-img-arrow"/>
 		</div>
-		<div id="interested">
-			<span id="interest">Interested in seeing more?</span><br><br><span id="see-more">Unfortunately, I'm still working on my own personal photography website, but feel free to peruse my Flickr account for now.</span>
+		<div id="photoInterest">
+			<p id="flickr">Like what you see?<br>Head over to my <img id="flickrLogo" src="./images/flickrLogo.png" alt="flickr logo"/> page to see more of my photos</p>
+			<!-- <span id="interest">Interested in seeing more?</span><br><br><span id="see-more">Unfortunately, I'm still working on my own personal photography website, but feel free to peruse my Flickr account for now.</span>
 			<div id="redirect_arrow">
 				<img src="./images/redirect_arrow.png" alt="redirect to Flickr" id="redirect_img_arrow">
-			</div>
+			</div> -->
 		</div>
 	</div>
 	
